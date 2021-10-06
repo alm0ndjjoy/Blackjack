@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* background image & centered */
+/* background image import & centered */
 body {
   background-image: url("./pexels-javon-swaby-3279691.jpg");
   background-size: cover;
@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 
-/* styles & google font import */
+/* style text content & google font import */
 h1 {
   font-family: "Cookie", cursive;
   color: red;
@@ -30,4 +30,23 @@ h1 {
   font-size: 30px;
   color: black;
   font-family: "Luckiest Guy", cursive;
+}
+
+/* button styles */
+button {
+  height: 10vh;
+  width: 15vh;
+  border-radius: 35px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #047636;
+}
+
+button:hover {
+  cursor: pointer;
+  color: red;
 }
