@@ -1,0 +1,33 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* background image & centered */
+body {
+  background-image: url("./pexels-javon-swaby-3279691.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* styles & google font import */
+h1 {
+  font-family: "Cookie", cursive;
+  color: red;
+  font-size: 150px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.p {
+  font-size: 30px;
+  color: black;
+  font-family: "Luckiest Guy", cursive;
+}
