@@ -52,3 +52,13 @@ function renderGame(){
 }
 messageEl.textContent = message;
 }
+
+// when "draw a new card" is called, player is alive, and doesn't have blackjack, renders a random card.
+
+function newCard(){
+    if (isAlive === true && hasBlackJack === false){
+        let card = getRandomCard();
+        sum += cards.push(", " + card)
+        renderGame()
+    }
+}
